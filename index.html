@@ -134,7 +134,17 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">สวัสดีครับ ผมชื่อ นายฮอท เว็บไซด์กังๆจะเป็นเว็บที่คนกังๆเข้ามาดูเท่านั้นนะ</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead"> <b>สวัสดีครับ ผมชื่อ นายฮอท เว็บไซด์กังๆจะเป็นเว็บที่คนกังๆเข้ามาดูเท่านั้นนะ </b>
+เว็บz.com - เว็บz เอาค่าDNS จากroute 53 ลง เว็บ z
+Route 53 - สร้าง DNS เพื่อไปเชือมกับเว็บz
+Certificate Manager - สร้าง www.ชื่อทีเราสร้างจากเว็บz กับ ไม่ www. ชื่อที่เราสร้างจากเว็บZ
+Elastic Beanstalk - ตั้งค่า Load balancer และสร้าง https: post 443
+Github - สร้าง และ โหลดมาไว้ในเครื่อง และ commitขึ้นgithub
+Pipeline - สร้างและเชื่อมgithubเพื่อให้เป็นเว็บไซด์ได้แต่ไม่ใช่เว็บไซด์ทางการ
+Elastic Beanstlak - สร้างenvของเว็บไซด์
+Amazon RDS - database endpoint ของ port 3306 เพือไปเชื่อมกับ mysql workbench
+MySQL WorkBench - สร้าง database
+                    </p></div>
                     <div class="col-lg-4 me-auto"><p class="lead">ต้องเข้าใจหลักการด้วยนะ เดียวโดนเซ็ทหย่อ</p></div>
         </section>
         <!-- Contact Section-->
