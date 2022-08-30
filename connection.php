@@ -3,13 +3,13 @@
 $conn = "";
 
 try {
-	$servername = "dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws.com";
+	$servername = "dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws";
 	$dbname = "dberp";
 	$username = "admin";
 	$password = "0881085759Hot";
 
 	$conn = new PDO(
-		"mysql:host=$servername; dbname=dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws.com",
+		"mysql:host=$servername; dbname=dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws",
 		$username, $password
 	);
 	
