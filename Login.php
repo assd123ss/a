@@ -8,6 +8,16 @@
 </head>
 <body>
   <?php
+  include_once('conn.php');
+  
+  if (isset($_POST['submit'])) {
+    echo $_POST['username']
+  echo $_POST['password']
+  }
+
+
+
+  
   ?>
 
 <div id="bg"></div>
