@@ -1,6 +1,6 @@
 <?php
 
-$conn = "";
+$conn = new mysqli($servername, $username, $password);
 
 try {
 	$servername = "dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws";
