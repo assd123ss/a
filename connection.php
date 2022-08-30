@@ -9,7 +9,7 @@ try {
 	$password = "0881085759Hot";
 
 	$conn = new PDO(
-		"mysql:host=$servername; dbname=dberp",
+		"mysql:host=$servername; dbname=dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws",
 		$username, $password
 	);
 	
