@@ -24,7 +24,7 @@
 
 <form>
   <div class="form-field">
-    <input type="text" placeholder="Email / Username" required/>
+    <input type="username" placeholder="Username" required/>
   </div>
   
   <div class="form-field">
