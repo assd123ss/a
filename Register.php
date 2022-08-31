@@ -47,7 +47,7 @@ else{
     $insert = "INSERT INTO adminlogin (username,password) VALUES ('$username','$password')";
     $result = mysqli_query($conn,$insert);
     echo "<script>alert('Register Success')</script>";
-    echo "<script>window.location='login.php'</script>";
+    echo "<script>window.location='index.php'</script>";
 }
 }
 ?>
