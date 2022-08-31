@@ -16,7 +16,7 @@ include "conn.php";
 
 <form action ="ai.php"method="POST">
   <div class="form-field">
-    <input name="username"type="text" placeholder="Email / Username" required/>
+    <input name="username"type="text" placeholder="Username" required/>
   </div>
   
   <div class="form-field">

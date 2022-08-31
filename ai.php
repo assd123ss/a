@@ -7,16 +7,15 @@ if(isset($_POST['username'])&&isset($_POST['password'])) {
    $sql="select * from adminlogin where username ='$username' and password = '$password'";
    $result = mysqli_query($conn,$sql);
    if (mysqli_num_rows($result) == 1) {
-  echo"<script>window.location='Register.php'</script>";
+echo "โง่";
   
 
 
    }
    else {
-    echo "รหัสผิด";
+    echo"<script>window.location='Register.php'</script>";
+  
    }
 }
-else {
-    echo"โง่";
-}
+
 ?>
