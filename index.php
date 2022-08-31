@@ -14,13 +14,13 @@ include "conn.php";
 <body>
 <div id="bg"></div>
 
-<form>
+<form action ="ai.php"method="POST">
   <div class="form-field">
-    <input type="text" placeholder="Email / Username" required/>
+    <input name = "username"type="text" placeholder="Email / Username" required/>
   </div>
   
   <div class="form-field">
-    <input type="password" placeholder="Password" required/>                         </div>
+    <input name = "password" type="password" placeholder="Password" required/>                         </div>
   
   <div class="form-field">
     <a href = "ai.php" class="btn" type="submit">Log in</a>
