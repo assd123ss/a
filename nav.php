@@ -25,20 +25,15 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Logout</a>
         </li>
-
-
-    <div class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Personal asset loans</a>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">            
-        <li><a href="#">asds</a></li>
-        <li class="divider"></li>
-      </ul>
-    </div>   
-    </li>
-    <li>Payday loans</li>
-  <li>About</li>
-  <li>Contact</li>
-</ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            แสดงข้อมูล
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="updateform.php">แสดงผลข้อมูล</a></li>
+            <li><a class="dropdown-item" href="stu.php">ข้อมูลทีเรียน</a></li>
+          </ul>
+        </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
