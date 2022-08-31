@@ -54,6 +54,5 @@
 
   </div>
 </div>
-<div class="bg-image"  style ="background-image: url('https://cdn.pixabay.com/photo/2022/08/21/12/05/lightning-7401119_960_720.jpg'); height: 100vh;"> </div>
   </body>
 </html>
