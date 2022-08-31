@@ -1,23 +1,6 @@
 <?php
 
-$conn = "";
 
-try {
-	$servername = "dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws.com";
-	$dbname = "dberp";
-	$username = "admin";
-	$password = "0881085759Hot";
-
-	$conn = new PDO(
-		"mysql:host=$servername; dbname=dberp",
-		$username, $password
-	);
-	
-$conn->setAttribute(PDO::ATTR_ERRMODE,
-					PDO::ERRMODE_EXCEPTION);
-}
-catch(PDOException $e) {
-	echo "Connection failed: " . $e->getMessage();
-}
+$conn = mysqli_connect("dberp.czr48qkizqnc.ap-southeast-1.rds.amazonaws.com","admin","0881085759Hot","dberp");
 
 ?>
