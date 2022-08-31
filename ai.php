@@ -16,4 +16,7 @@ if (isset ($_POST['username'])&&isset ($_POST['password'])) {
     echo "รหัสผิด";
    }
 }
+else {
+    echo"โง่";
+}
 ?>
