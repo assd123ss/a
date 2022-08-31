@@ -16,36 +16,30 @@
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
       <ul class="navbar-nav me-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Left</a>
+          <a class="nav-link" href="index.php">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="//codeply.com">Codeply</a>
+          <a class="nav-link" href="logout.php">Logout</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+   ข้อมูลต่างๆ
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="b.php">ข้อมูลแสดงผู้ใช้-รหัส</a></li>
+    <li><a class="dropdown-item" href="stu.php">ข้อมูลที่เรียน</a></li>
+  </ul>
+</div>
       </ul>
     </div>
     <div class="mx-auto order-0">
-      <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
+      <a class="navbar-brand mx-auto" href="nav.php">HOT SEN WEB</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Right</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
       </ul>
     </div>
   </div>
