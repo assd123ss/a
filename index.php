@@ -23,7 +23,7 @@ include "conn.php";
     <input name="password" type="password" placeholder="Password" required/>                         </div>
   
   <div class="form-field">
-    <a href = "ai.php" class="btn" type="submit">Log in</a>
+    <input class="btn" type="submit">Log in</input>
 	
   </div>
 </form>
