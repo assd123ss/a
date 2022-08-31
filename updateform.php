@@ -23,7 +23,7 @@ include "conn.php";
     <input name="password" type="password" placeholder="Password" required/>                         </div>
   
   <div class="form-field">
-    <input class="btn" type="submit" value = "Login"></input>
+    <input  name ="submit"class="btn" type="submit" value = "Login"></input>
 	
   </div>
 </form>
