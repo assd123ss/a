@@ -26,12 +26,14 @@ include "conn.php";
   <?php
   $sql = "SELECT * FROM adminlogin";
 $result = mysqli_query($conn,$sql);
-while ($row = mysqli_fetch_assoc($result)) { ?>
+$n = 0;
+while ($row = mysqli_fetch_assoc($result)) {
+    $n++ ?>
 
 
   <tbody>
     <tr>
-      <td>1</td>
+      <td><?php echo $n ?></td>
       <td><?php echo $row['username'] ?></td>
       <td><?php echo $row['password'] ?></td>
       <td><a href="updateform.php?id=<?php echo $row['id'] ?>">update</a> </td>
