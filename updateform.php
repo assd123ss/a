@@ -13,19 +13,25 @@ include "conn.php";
 </head>
 <body>
 <div id="bg"></div>
+<?php
+ $sql = "SELECT * FROM adminlogin";
+ $result = mysqli_query($conn,$sql);
+ $row = mysqli_fetch_assoc($result);  
+ 
+ ?>
 
 <form action ="update.php"method="POST">
   <div class="form-field">
-    <input name="username"type="text" placeholder="Username" required/>
+    <input value = "<?php echo $row['username'] ?>" name="username"type="text" placeholder="Username" required/>
   </div>
   
   <div class="form-field">
-    <input name="password" type="password" placeholder="Password" required/>                         </div>
+    <input value = "<?php echo $row['password'] ?>" name="password" type="password" placeholder="Password" required/>                         </div>
   
-  <div class="form-field">
+ 
     <input  name ="submit"class="btn" type="submit" value = "Login"></input>
 	
-  </div>
+
 </form>
 <!-- partial -->
   
