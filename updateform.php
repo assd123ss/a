@@ -14,13 +14,15 @@ include "conn.php";
 <body>
 <div id="bg"></div>
 <?php
- $sql = "SELECT * FROM adminlogin";
+$id = $_GET['id'];
+ $sql = "SELECT * FROM adminlogin WHERE id ='$id'";
  $result = mysqli_query($conn,$sql);
  $row = mysqli_fetch_assoc($result);  
  
  ?>
 
 <form action ="update.php"method="POST">
+<input value = "<?php echo $row['id'] ?>" name="id"type="hidden" placeholder="Username" required/>
   <div class="form-field">
     <input value = "<?php echo $row['username'] ?>" name="username"type="text" placeholder="Username" required/>
   </div>
