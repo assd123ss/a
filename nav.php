@@ -30,7 +30,7 @@
             แสดงข้อมูล
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="updateform.php">แสดงผลข้อมูล</a></li>
+            <li><a class="dropdown-item" href="b.php">แสดงผลข้อมูล</a></li>
             <li><a class="dropdown-item" href="stu.php">ข้อมูลทีเรียน</a></li>
           </ul>
         </li>
