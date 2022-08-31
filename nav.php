@@ -13,7 +13,6 @@
    
   </head>
   <body>
-    <div style ="background-image: url('https://cdn.pixabay.com/photo/2022/08/21/12/05/lightning-7401119_960_720.jpg'); height: 400px;"> </div>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container-fluid">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -40,6 +39,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
+    <div style ="background-image: url('https://cdn.pixabay.com/photo/2022/08/21/12/05/lightning-7401119_960_720.jpg'); height: 400px;"> </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
       <ul class="navbar-nav ms-auto">
       </ul>
