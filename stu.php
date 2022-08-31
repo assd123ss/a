@@ -60,9 +60,13 @@
 
   
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">เว็บz.com</h5>
+    <p class="card-text">เว็บz เอาค่าDNS จากroute 53 ลง เว็บ z</p>
+  </div>
+
+  <div class="card-body">
+    <h5 class="card-title">Route 53</h5>
+    <p class="card-text">สร้าง DNS เพื่อไปเชือมกับเว็บz</p>
   </div>
 </div>
   </body>
