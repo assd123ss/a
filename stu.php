@@ -78,11 +78,11 @@
       <h5 class="card-title">Certificate Manager</h5>
       <p class="card-text">สร้าง www.ชื่อทีเราสร้างจากเว็บz กับ ไม่ www. ชื่อที่เราสร้างจากเว็บZ</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+    </div>
 
-
-
-
-      <div class="card-group">
+    <div class="container">
+    <div class="card-group">
   <div class="card">
     <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg" class="card-img-top" >
     <div class="card-body">
@@ -107,7 +107,6 @@
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 </div>
 </div>
-    </div>
   </div>
 </div>
 </div>
