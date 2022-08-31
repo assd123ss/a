@@ -33,6 +33,7 @@
     </div>
     <div class="mx-auto order-0">
       <a class="navbar-brand mx-auto" href="nav.php">HOT SEN WEB</a>
+      <div class="bg"></div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,7 +43,6 @@
       </ul>
     </div>
   </div>
-  <div class="section"></div>
 </nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
