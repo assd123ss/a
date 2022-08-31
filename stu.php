@@ -59,15 +59,32 @@
   <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg" class="card-img-top">
 
   
-  <div class="card-body">
-    <h5 class="card-title">เว็บz.com</h5>
-    <p class="card-text">เว็บz เอาค่าDNS จากroute 53 ลง เว็บ z</p>
+  <div class="card-group">
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">เว็บz.com </h5>
+      <p class="card-text">เว็บz เอาค่าDNS จากroute 53 ลง เว็บ z</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
   </div>
-
-  <div class="card-body">
-    <h5 class="card-title">Route 53</h5>
-    <p class="card-text">สร้าง DNS เพื่อไปเชือมกับเว็บz</p>
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Route 53</h5>
+      <p class="card-text">สร้าง DNS เพื่อไปเชือมกับเว็บz</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
   </div>
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Certificate Manager</h5>
+      <p class="card-text">สร้าง www.ชื่อทีเราสร้างจากเว็บz กับ ไม่ www. ชื่อที่เราสร้างจากเว็บZ</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
 </div>
   </body>
 </html>
