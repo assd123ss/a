@@ -1,5 +1,6 @@
 <?php
 include "conn.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +23,8 @@ include "conn.php";
     <input type="password" placeholder="Password" required/>                         </div>
   
   <div class="form-field">
-    <button class="btn" type="submit">Log in</button>
+    <a href = "ai.php" class="btn" type="submit">Log in</a>
+	
   </div>
 </form>
 <!-- partial -->
