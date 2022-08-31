@@ -52,6 +52,5 @@
     
   </div>
 </div>
-<div class="hero-image"></div>
   </body>
 </html>
