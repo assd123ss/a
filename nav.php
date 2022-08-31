@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./a.css">
   </head>
   <body>
-    <div class="hero-image"></div>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container-fluid">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -53,5 +52,6 @@
     
   </div>
 </div>
+<div class="hero-image"></div>
   </body>
 </html>
