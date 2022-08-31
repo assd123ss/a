@@ -1,5 +1,8 @@
 <?php
 include "conn.php";
+if (isset($_POST['submit'])) {
+    # code...
+
 $id = $_GET['id'];
 $username =$_POST['username'];
 $password =$_POST['password'];
@@ -19,6 +22,8 @@ $password =$_POST['password'];
         echo "<script>window.location='b.php'</script>";
     }
 
-
-
+}
+else {
+    echo "ควย";
+}
 ?>
