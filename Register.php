@@ -23,7 +23,7 @@ include "conn.php";
     <input name="password" type="password" placeholder="Password" required/>                         </div>
   
   <div class="form-field">
-    <input class="btn" type="submit" value = "Register"></input>
+    <input name ="submit" class="btn" type="submit" value = "Register"></input>
 	
   </div>
 </form>
@@ -31,3 +31,24 @@ include "conn.php";
   
 </body>
 </html>
+<?php
+if (isset($_POST['submit'])) {
+    $username =$_POST['username'];
+    $password =$_POST['password'];
+
+$sql = "SELECT * FROM adminlogin WHERE username = '$username'";
+$result = mysqli_query($conn,$sql);
+
+if(mysqli_num_rows($result) > 0){
+    echo "<script>alert('Username Aleady')</script>";
+    echo "<script>window.location='Register.php'</script>";
+}
+else{
+    $insert = "INSERT INTO adminlogin (username,password) VALUES ('$username','$password')";
+    $result = mysqli_query($conn,$insert);
+    echo "<script>alert('Register Success')</script>";
+    echo "<script>window.location='login.php'</script>";
+}
+}
+?>
+
