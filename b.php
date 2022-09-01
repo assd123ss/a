@@ -15,7 +15,7 @@ include "nav.php";
   </head>
   <body>
   <div class="container">
-  <table class="table table-primary">
+  <table class="table table-dark">
   <thead class="table-light">
     <tr>
       <th scope="col">ลำดับ</th>
