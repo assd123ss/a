@@ -69,21 +69,21 @@
 
 
 
+    <div class="container">
+
+        <audio id="myAudio" controls autoplay>
+            <source src="hotka.mp3">
+            <p id="demo"></p>
 
 
-    <audio id="myAudio" controls autoplay>
-  <source src="hotka.mp3">
-  <p id="demo"></p>
-
-  
-</audio>
-<p id="demo"></p>
-<script>
-function myFunction() {
-  var x = document.getElementById("myAudio").autoplay;
-  document.getElementById("demo").innerHTML = x;
-}
-</script>
+        </audio>
+        <p id="demo"></p>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myAudio").autoplay;
+            document.getElementById("demo").innerHTML = x;
+        }
+        </script>
 </body>
 
 </html>
