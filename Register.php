@@ -60,7 +60,7 @@ if(mysqli_num_rows($result) > 0){
     echo "<script>window.location='Register.php'</script>";
 }
 else{
-    $insert = "INSERT INTO adminlogin (username,password) VALUES ('$username','$password')";
+    $insert = "INSERT INTO adminlogin (username,password,Email,Phone) VALUES ('$username','$password','$Email','$Phone')";
     $result = mysqli_query($conn,$insert);
     echo "<script>alert('Register Success')</script>";
     echo "<script>window.location='index.php'</script>";
