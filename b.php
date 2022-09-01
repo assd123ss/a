@@ -20,6 +20,8 @@ include "nav.php";
       <th scope="col">ลำดับ</th>
       <th scope="col">Username</th>
       <th scope="col">Password</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
       <th scope="col">edit</th>
       <th scope="col">delete</th>
     </tr>

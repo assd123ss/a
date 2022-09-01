@@ -21,6 +21,18 @@ include "conn.php";
   
   <div class="form-field">
     <input name="password" type="password" placeholder="Password" required/>                         </div>
+
+    
+  <div class="form-field">
+    <input name="Email" type="Email" placeholder="Email" required/>                         </div>
+
+    <div class="form-field">
+    <input name="Phone" type="text" placeholder="Phone" required/>                         </div>
+
+
+
+    
+    
   
   <div class="form-field">
     <input name ="submit" class="btn" type="submit" value = "Register"></input>
@@ -35,6 +47,10 @@ include "conn.php";
 if (isset($_POST['submit'])) {
     $username =$_POST['username'];
     $password =$_POST['password'];
+    $Email =$_POST['Email'];
+    $Phone =$_POST['Phone'];
+  
+
 
 $sql = "SELECT * FROM adminlogin WHERE username = '$username'";
 $result = mysqli_query($conn,$sql);
