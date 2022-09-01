@@ -72,7 +72,7 @@
 
 
     <audio id="myAudio" controls autoplay>
-  <source src="hotka.mp3" type="audio/hotka.mp3">
+  <source src="hotka.mp3">
   <p id="demo"></p>
 
   
