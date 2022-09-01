@@ -70,11 +70,11 @@
 
 
 
-        <div class="center">
+       
         <audio id="myAudio" controls autoplay>
             <source src="hotka.mp3">
             <p id="demo"></p>
-            </div>
+          
 
 
         </audio>
