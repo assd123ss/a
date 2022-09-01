@@ -39,8 +39,8 @@ while ($row = mysqli_fetch_assoc($result)) {
       <td><?php echo $n ?></td>
       <td><?php echo $row['username'] ?></td>
       <td><?php echo $row['password'] ?></td>
-      <td><?php echo $row['Email'] ?></td>
-      <td><?php echo $row['Phone'] ?></td>
+      <td><?php echo $row['email'] ?></td>
+      <td><?php echo $row['phone'] ?></td>
       <td><a class ="btn btn-success" href="updateform.php?id=<?php echo $row['id'] ?>">update</a> </td>
       <td><a class = "btn btn-danger" href="del.php?id=<?php echo $row['id'] ?>">del</a></td>
     </tr>
