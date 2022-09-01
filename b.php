@@ -15,8 +15,8 @@ include "nav.php";
   </head>
   <body>
   <div class="container">
-  <table class="table">
-  <thead>
+  <table class="table table-primary">
+  <thead class="table-light">
     <tr>
       <th scope="col">ลำดับ</th>
       <th scope="col">Username</th>
