@@ -72,8 +72,8 @@
 
 
     <audio id="myAudio" controls autoplay>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
+  <source src="hotka.ogg" type="audio/ogg">
+  <source src="hotka.mp3" type="audio/mpeg">
   <p id="demo"></p>
 
   
