@@ -163,39 +163,7 @@
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
 
-
-                                
-                    <div class="container">
-                        <div class="card-group">
-                            <div class="card">
-                                <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">line ลิป </h5>
-                                    <p class="card-text">สร้างแถบเมนูไลน์</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Light sail</h5>
-                                    <p class="card-text">static ip
-                                    </p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="https://cdn.pixabay.com/photo/2021/11/12/12/16/leaves-6788800_960_720.jpg"
-                                    class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title"></h5>
-                                    <p class="card-text"></p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-
-                        
+                            
 
 
                             </div>
