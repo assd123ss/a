@@ -11,7 +11,7 @@
         $firstname = $_POST['firstname'];
         $lastname = $_POST['lastname'];
 
-        $user_check = "SELECT * FROM user WHERE username = '$username' LIMIT 1";
+        $user_check = "SELECT * FROM dberp WHERE username = '$username' LIMIT 1";
         $result = mysqli_query($conn, $user_check);
         $user = mysqli_fetch_assoc($result);
 

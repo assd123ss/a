@@ -7,7 +7,7 @@ session_start();
                   $Username = $_POST['Username'];
                   $Password = md5($_POST['Password']);
 				//query 
-                  $sql="SELECT * FROM User Where Username='".$Username."' and Password='".$Password."' ";
+                  $sql="SELECT * FROM dberp Where Username='".$Username."' and Password='".$Password."' ";
 
                   $result = mysqli_query($conn,$sql);
 				
