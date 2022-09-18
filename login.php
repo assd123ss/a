@@ -21,13 +21,13 @@ session_start();
 
                       if($_SESSION["Userlevel"]=="A"){ //ถ้าเป็น admin ให้กระโดดไปหน้า admin_page.php
 
-                        Header("Location: admin_page.php");
+                        header("Location: admin_page.php");
 
                       }
 
                       if ($_SESSION["Userlevel"]=="M"){  //ถ้าเป็น member ให้กระโดดไปหน้า user_page.php
 
-                        Header("Location: user_page.php");
+                        header("Location: user_page.php");
 
                       }
 
