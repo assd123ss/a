@@ -14,7 +14,6 @@ if (!$_SESSION["UserID"]) {
 </head>
 <body>
  <?php include "index.php" ?>
-    <p>&nbsp;</p>
 </body>
 </html>
 <?php } ?>
