@@ -19,7 +19,7 @@ session_start();
                       $_SESSION["User"] = $row["Firstname"]." ".$row["Lastname"];
                       $_SESSION["Userlevel"] = $row["Userlevel"];
 
-                      if($_SESSION["Userlevel"]=="A"){ //ถ้าเป็น admin ให้กระโดดไปหน้า admin_page.php
+                      if($_SESSION["Userlevel"]=="a"){ //ถ้าเป็น admin ให้กระโดดไปหน้า admin_page.php
 
                         header("Location: admin_page.php");
 
