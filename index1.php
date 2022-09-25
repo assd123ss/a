@@ -47,13 +47,14 @@
           <a class="nav-link mx-2" href="#">
             <img src="bac.png" height="40" />
           </a>
+          <li class="nav-item">
+          <a class="nav-link mx-2" href="stoke.php">สินค้า</a>
+        </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="form_login.php">
-            ล็อคอิน
-          </a>
-        </li>
+          <a class="nav-link mx-2" href="logout.php">ล็อคเอ้าส์</a>
       </ul>
+      
     </div>
   </div>
 </nav>

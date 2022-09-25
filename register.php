@@ -2,7 +2,7 @@
 
     session_start();
 
-    require_once "conn.php";
+    require_once "connection.php";
 
     if (isset($_POST['submit'])) {
 
@@ -12,7 +12,7 @@
         $lastname = $_POST['lastname'];
 
         $user_check = "SELECT * FROM dberp WHERE username = '$username' LIMIT 1";
-        $result = mysqli_query($conn, $user_check);
+        $result = mysqli_query($con, $user_check);
         $user = mysqli_fetch_assoc($result);
 
         if ($user['username'] === $username) {
@@ -21,15 +21,15 @@
             $passwordenc = md5($password);
 
             $query = "INSERT INTO user (username, password, firstname, lastname, userlevel)
-                        VALUE ('$username', '$passwordenc', '$firstname', '$lastname', 'm')";
-            $result = mysqli_query($conn, $query);
+                        VALUE ('$username', '$passwordenc', '$firstname', '$lastname', 'M')";
+            $result = mysqli_query($con, $query);
 
             if ($result) {
                 $_SESSION['success'] = "Insert user successfully";
-                header("Location: frm_login.php");
+                header("Location: form_login.php");
             } else {
                 $_SESSION['error'] = "Something went wrong";
-                header("Location: frm_login.php");
+                header("Location: form_login.php");
             }
         }
 
@@ -78,7 +78,7 @@
         <input class = "form_email"   type="text" name="lastname" placeholder="กรุณากรอกนามสกุล" required>
       
         <input  class="form__submit-btn"    type="submit" name="submit" value="สมัครสมาชิก">
-        <a href="frm_login.php"> ย้อนกลับไปหน้าล็อคอิน</a>
+        <a href="form_login.php"> ย้อนกลับไปหน้าล็อคอิน</a>
     
 
 
